@@ -1,28 +1,23 @@
 import {
   frontend,
   backend,
-  ux,
-  prototyping,
+  mobile,
+  web,
   javascript,
-  typescript,
+  mongodb,
   html,
   css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
+  python,
+  csharp,
+  java,
+  kotlin,
+  retrofit,
   git,
-  figma,
+  fastapi,
+  ubuntu,
   docker,
   postgresql,
-  rubyrails,
-  graphql,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
+  booking,
   coverhunt,
   dcc,
   kelhel,
@@ -46,24 +41,40 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Frontend Developer',
-    icon: frontend,
-  },
-  {
     title: 'Backend Developer',
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
-    icon: ux,
+    title: 'Frontend Developer',
+    icon: frontend,
   },
   {
-    title: 'Software Prototyping',
-    icon: prototyping,
+    title: 'Mobile Development',
+    icon: mobile, 
+  },
+  {
+    title: 'Web Development',
+    icon: web, 
   },
 ];
 
 const technologies = [
+   {
+    name: 'Python',
+    icon: python,
+  },
+  {
+    name: 'C Sharp',
+    icon: csharp,
+  },
+  {
+    name: 'Java',
+    icon: java,
+  },
+  {
+    name: 'Kotlin',
+    icon: kotlin,
+  },
   {
     name: 'HTML 5',
     icon: html,
@@ -77,48 +88,32 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: 'TypeScript',
-    icon: typescript,
+    name: 'Mongo DB',
+    icon: mongodb,
   },
   {
-    name: 'React JS',
-    icon: reactjs,
-  },
-  {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
-  {
-    name: 'Node JS',
-    icon: nodejs,
-  },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
+    name: 'Postgresql',
     icon: postgresql,
   },
   {
-    name: 'git',
+    name: 'Fast API',
+    icon: fastapi,
+  },
+  {
+    name: 'Retrofit',
+    icon: retrofit,
+  },
+  {
+    name: 'Git',
     icon: git,
   },
   {
-    name: 'figma',
-    icon: figma,
+    name: 'Docker',
+    icon: docker,
   },
   {
-    name: 'docker',
-    icon: docker,
+    name: 'Ubuntu',
+    icon: ubuntu,
   },
 ];
 
@@ -155,117 +150,28 @@ const experiences = [
 
 const projects = [
   {
-    id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    id: 'project-booking',
+    name: 'Booking App',
+    description: `Developed a full-featured Android app for booking and managing accommodations. 
+    The app allows users to plan trips, manage bookings, and access trip details seamlessly.
+
+    Architecture: Three-tier system with Android client, FastAPI server, and a normalized relational database (MySQL via SQLAlchemy).
+
+    Security: Implements authentication and secure session management with cookies.
+
+    API Integration: Uses RESTful APIs and HTTPS requests for communication between client and server.
+
+    Future Plans: Expanding functionality with a custom AI agent for smarter trip planning, including recommendations for transport, museums, and other attractions.`,
     tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
+      { name: 'kotlin',     color: 'blue-text-gradient' },
+      { name: 'fastapi',    color: 'green-text-gradient' },
+      { name: 'mysql',      color: 'pink-text-gradient' },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
-  },
-  {
-    id: 'project-2',
-    name: 'Leaderboard',
-    description:
-      'A leaderboard list app that displays scores submitted by different players.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
-  },
-  {
-    id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
-  },
-  {
-    id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
-  },
-  {
-    id: 'project-5',
-    name: 'Nyeusi Fest Site',
-    description:
-      'This is a demo concert website for a music festival called Nyeusi.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    image: booking,  // import your screenshot in assets/index.js
+    repo: 'https://github.com/alevchenko12/BookingApp',
+    demo: '', // leave empty if no live demo yet
   },
 ];
+
 
 export { services, technologies, experiences, projects };
