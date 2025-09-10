@@ -1,10 +1,9 @@
-import bwmap from './backgrounds/bw-map.jpeg';
+import bwmap from './backgrounds/bw-map.png';
 import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 
 import logo from './logo/logo-black.png';
-import logotext from './logo/logo-text-black.png';
 
 import personal_photo from './personal/Photo_No_Background.png';
 
@@ -38,10 +37,8 @@ import ubuntu from './tech/ubuntu.png';
 import mongodb from './tech/mongodb.png';
 import postgresql from './tech/postgresql.png';
 
-import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
+import uni from './company/uni.png';
+import tablesearch from './company/tablesearch.png';
 
 import booking from './projects/booking.png';
 
@@ -51,7 +48,6 @@ export {
   whiteabstract,
   worldmap,
   logo,
-  logotext,
   personal_photo,
   backend,
   frontend,
@@ -82,8 +78,6 @@ export {
   mongodb,
   retrofit,
   booking,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  uni,
+  tablesearch,
 };
